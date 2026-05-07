@@ -14,7 +14,7 @@ export default function PersonalPhotos() {
         className="mb-24 text-center"
       >
         <span className="text-[10px] uppercase tracking-[0.5em] opacity-40 italic">个人瞬间 / Personal Moments</span>
-        <h2 className="font-serif text-5xl mt-4 font-extralight tracking-tight">图片画廊 / Photo Gallery</h2>
+        <h2 className="font-serif text-5xl mt-4 font-extralight tracking-tight">肖像 / Portrait</h2>
       </motion.div>
 
       {/* Photos Grid */}
