@@ -15,6 +15,7 @@ import { Volume2, VolumeX, ChevronDown } from 'lucide-react';
 // Sections
 import Intro from './components/Intro';
 import Timeline from './components/Timeline';
+import PersonalPhotos from './components/PersonalPhotos';
 import MusicSpace from './components/MusicSpace';
 import CreativeSpace from './components/CreativeSpace';
 import Reflection from './components/Reflection';
@@ -97,6 +98,7 @@ export default function App() {
               >
                 <nav className="hidden md:flex gap-8 text-[10px] tracking-[0.3em] uppercase opacity-40">
                   <a href="#timeline" className="hover:opacity-100 transition-opacity">时光轴 / Timeline</a>
+                  <a href="#photos" className="hover:opacity-100 transition-opacity">图片 / Photos</a>
                   <a href="#music" className="hover:opacity-100 transition-opacity">声像 / Archive</a>
                   <a href="#creative" className="hover:opacity-100 transition-opacity">互动 / Interactive</a>
                 </nav>
@@ -114,6 +116,10 @@ export default function App() {
             <div className="flex flex-col gap-32 pb-32">
               <section id="timeline">
                 <Timeline />
+              </section>
+
+              <section id="photos">
+                <PersonalPhotos />
               </section>
 
               <section id="music">
